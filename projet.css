@@ -1,0 +1,366 @@
+.contenu {
+  display: flex;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.side {
+  width: 20%;
+  background-color: #F0F0F0;
+  text-align: center;
+  padding-top: 20px;
+  background-color: rgb(33, 44, 64);
+  color: rgb(56, 74, 102);
+  position: relative;
+}
+
+.logo {
+  margin-top: 50px;
+}
+
+.logo img {
+  width: 70%;
+}
+
+.side li {
+  list-style: none;
+  margin-bottom: 20px;
+  color: rgb(56, 74, 102);
+}
+
+.rest {
+  width: 80%;
+
+}
+
+#text1 {
+  text-align: center;
+  padding-top: 200px;
+  color: rgb(236, 206, 136);
+  font-size: 36px;
+  letter-spacing: 4px;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+.part1 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.barre {
+  position: relative;
+  top: 5px;
+  left: -235px;
+}
+
+.part2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.text2 {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+#read {
+  display: block;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: rgb(236, 206, 136);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  width: 50px;
+  height: 70px;
+}
+
+.part3 {
+  display: flex;
+  margin-left: 5%;
+}
+
+.right2 {
+  margin-left: 25%;
+}
+
+.awake {
+  margin-left: 5%;
+  display: block;
+}
+
+#left1 {
+  margin-left: 5%;
+  display: block;
+  width: 150px;
+}
+
+#right1 {
+  display: block;
+  width: 150px;
+
+}
+
+#left5 img {
+  height: 400px;
+}
+
+.mot {
+  display: flex;
+}
+
+.part4 {
+  display: flex;
+}
+
+#left3 {
+  width: 400px;
+  /* margin-left: 5%; */
+}
+
+.part5 {
+  display: flex;
+  justify-content: space-around;
+}
+
+#right3 {
+  width: 400px;
+  margin-right: 5%;
+}
+
+.part6 {
+  margin-left: 5%;
+  display: flex;
+
+}
+
+#right4 img {
+  margin-left: 30%;
+}
+
+#left4 {
+  width: 400px;
+}
+
+.part7 {
+  margin-left: 5%;
+  display: flex;
+}
+
+.mot1 {
+  display: flex;
+  margin-left: 10%;
+}
+
+.part8 {
+  display: flex;
+  justify-content: space-between;
+  margin: 0%;
+  padding: 0%;
+  text-align: center;
+  background-color: rgb(245, 248, 255);
+  opacity: 100%;
+}
+
+.part9 {
+  display: flex;
+  margin-left: 5%;
+}
+
+#left7 {
+  display: block;
+}
+
+#img1 {
+  display: flex;
+
+}
+
+#img1 img {
+  height: 200px;
+}
+
+.part10 {
+  display: flex;
+}
+
+#mot2 {
+  display: flex;
+}
+
+#right7 {
+  margin-left: 30%;
+}
+
+.part11 {
+  display: flex;
+  margin-left: 5%;
+}
+
+.part12 {
+  margin-left: 5%;
+}
+
+#nb3 {
+  margin-right: 5%;
+}
+
+#nb1 {
+  margin-left: 5%;
+}
+
+#b1 {
+  border-top: 7px solid;
+  color: rgb(236, 206, 136);
+  width: 100%;
+  margin-left: 209%;
+}
+
+#b2 {
+  border-top: 7px solid;
+  color: rgb(236, 206, 136);
+  width: 115%;
+  margin-left: 149%;
+}
+
+footer {
+  background-color: rgb(245, 248, 255);
+  margin: 0%;
+}
+
+p,
+h5,
+h6 {
+  color: rgb(114, 114, 114);
+}
+
+#b3 {
+  border-top: 7px solid;
+  color: rgb(236, 206, 136);
+  width: 25%;
+  margin-left: 15%;
+}
+
+#lead {
+  width: 550px;
+}
+
+.r2 {
+  margin-left: 30%;
+}
+
+textarea {
+  height: 90px;
+  border: none;
+  background-color: rgb(245, 248, 255);
+  width: 720px;
+}
+
+@media screen and (max-width:576px) {
+  .side {
+    display: none;
+  }
+
+  .part1,
+  .part2,
+  .part3,
+  .part4,
+  .part5,
+  .part6,
+  .part7,
+  .part11,
+  .part12,
+  .awake,
+  .mot,
+  .mot1 {
+    display: block;
+  }
+  #man1{
+    display: none;
+  }
+  #right1,
+  #left1 {
+    width: 100%;
+    margin-left: 5%;
+  }
+
+  #left1 {
+    margin-left: 5%;
+  }
+
+  #lead p {
+    width: 400px;
+    margin-left: 5%;
+  }
+
+  .right2 {
+    margin-left: 5%;
+  }
+
+  .part5 {
+    margin-left: 5%;
+  }
+
+  #right4 img {
+    margin-left: 20%;
+    height: 450px;
+  }
+
+  #left5 img {
+    margin-left: 15%;
+    height: 300px;
+  }
+
+  .mot1 p {
+    width: 400px;
+    margin-left: 5%;
+  }
+
+  .part8 {
+    margin-left: 20%;
+  }
+
+  #nb3 {
+    margin-right: 0%;
+  }
+
+  #img1 img {
+    height: 150px;
+  }
+
+  #b1 {
+    margin-left: 427%;
+  }
+
+  #b2 {
+    margin-left: 278%;
+  }
+
+  #b3 {
+    margin-left: 50%;
+    width: 50%;
+  }
+
+  .part10 p {
+    width: 150px;
+  }
+
+  .r2 {
+    margin-left: 15%;
+  }
+
+  #name {
+    margin-left: 10%;
+  }
+  .part12 textarea{
+    width: 360px;
+  }
+}
